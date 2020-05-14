@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--表单域  表单控件  提示信息-->
+		<form action="url地址" method="post提交方式" name="name1">
+			用户名：
+			<input type="text" name="username" id="" value="请输入名字" /><br />
+			
+			&nbsp;&nbsp;&nbsp;密码：
+			<input type="password" name="passord" id="" value="" /><br />
+			<!--type="radio" name要一样的，单选按钮可以实现多选一-->
+			
+			性别：男<input type="radio" name="sex"  value="男"/>
+			           女<input type="radio" name="sex" value="女" /><br />
+			<!--checkbox复选按钮-->
+			<!--checked="checked",默认选择-->
+			爱好：<input type="checkbox" name="hobby" />睡觉<input type="checkbox" name="hobby" />
+			打豆豆<input type="checkbox" name="hobby" checked="checked" />吃饭
+			<!--button，把表单域数据提交给后台-->
+			<br/><input type="button" id="" value="注册" />
+			<!--button,按钮-->
+			<input type="button"  value="hello"/>
+			<!--reset，重置-->
+			<input type="reset" name="" id="" value="重新填写" />
+			
+			<!--file，文件域，上传文件-->
+			<input type="file" name="" id="" value="选择文件" />
+			
+		</form>
+	</body>
+</html>
